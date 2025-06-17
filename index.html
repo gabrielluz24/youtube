@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Clone</title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<div class="app-container">
+  <header>
+    <div class="header-inner" role="banner">
+      <button aria-label="Abrir menu" class="mobile-menu-btn">
+        <span class="material-icons">menu</span>
+      </button>
+      <a href="#" class="logo-btn" aria-label="Home YouTube">
+        <span class="material-icons" aria-hidden="true">YouTube</span>
+      </a>
+      <form class="search-bar" role="search" aria-label="Pesquisar vídeos">
+        <input type="text" placeholder="Pesquisar" aria-label="Pesquisar" />
+        <button type="submit" aria-label="Pesquisar">
+          <span class="material-icons">procurar</span>
+        </button>
+      </form>
+      <div class="header-right">
+        <button class="sign-in-btn" aria-label="Iniciar sessão">
+          <span class="material-icons"></span> Iniciar sessão
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    
+    <section class="video-player-section" aria-label="Reprodutor de vídeo principal e detalhes">
+      <div class="video-wrapper" role="region" aria-label="Reprodutor de vídeo">
+        <img src="img/1711933864781.jfif" alt="" width="200px"
+        <iframe width="100%" height="100%" 
+        
+          src="https://www.youtube.com/embed/ZPcG9PCfagM" 
+          title="Matuê - Máquina do Tempo"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+        
+      </div>
+      <h1 class="video-title">Matuê - Máquina do Tempo</h1>
+      <div class="channel-row">
+        <div class="channel-avatar" aria-label="Avatar do canal 30PRAUM">
+          
+          
+          
+             <img src="img/1711933864781.jfif" alt=""
+        
+        
+        </div>
+        <div class="channel-name" aria-label="Nome do canal">
+          30PRAUM
+        </div>
+        <button class="subscribe-btn" aria-label="Inscrever-se no canal 30PRAUM">Inscrever-se</button>
+      </div>
+      <div class="video-stats-actions">
+        <div class="video-views-date" aria-label="172 milhões de visualizações, vídeo publicado há 4 anos">
+          172 M de visualizações • há 4 anos
+        </div>
+        <div class="actions-row" role="group" aria-label="Ações do vídeo">
+ 
+ 
+ 
+            <button class="action-btn" aria-label="Curtir vídeo 2 milhões">
+            <span class="material-icons">
+                <img src="img/like.png" alt="" width="30px" </span> 2 M
+          </button>
+          
+          
+          <button class="action-btn" aria-label="Não curtir vídeo">
+            <span class="material-icons">
+                <img src="img/deslike.png" alt="" width="30px"          
+          
+            </span>
+ 
+ 
+ 
+ 
+        </button>
+          <button class="action-btn" aria-label="Compartilhar vídeo">
+            <span class="material-icons">Compartilha</span>
+          </button>
+          <button class="action-btn" aria-label="Salvar vídeo para assistir depois">
+            <span class="material-icons">Salvar video</span>
+          </button>
+          
+        </div>
+      </div>
+      <div class="video-description" aria-label="Descrição do vídeo">
+        [30PRAUM] Máquina do Tempo - Matuê musica oficial video.
+      </div>
+
+      <section class="comments-section" aria-label="Seção de comentários">
+        <div class="comments-header">66788 comentários</div>
+        <div class="comment-input-row">
+          <div class="comment-avatar">
+            
+            
+            <img src="img/messi.jfif" alt="Avatar do usuário autenticado" />
+          
+        
+        </div>
+          <input class="comment-input" type="text" placeholder="Adicione um comentário..." aria-label="Adicionar comentário" />
+          <button class="comment-button" aria-label="Enviar comentário">Comentar</button>
+        </div>
+        <div class="comment-list" aria-live="polite">
+          <article class="comment-item" role="comment">
+            <div class="comment-item-avatar"
+            
+            
+            >
+              <img src="img/ney.jfif" alt="Avatar do usuário AB" />
+            
+            
+            
+            </div>
+            <div class="comment-item-content">
+              <div class="comment-item-author">Pedro Ameno</div>
+              <div class="comment-item-text">Muito bom, me inspiro muito no tuê!</div>
+            </div>
+          </article>
+          <article class="comment-item" role="comment">
+            <div class="comment-item-avatar">
+            
+            
+            
+                <img src="img/pelé.jfif" alt="Avatar do usuário CD" />
+            
+            
+            
+            </div>
+            <div class="comment-item-content">
+              <div class="comment-item-author">João Pedro</div>
+              <div class="comment-item-text">A batida e tudo é demais, me sinto no futuro!</div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </section>
+
+    <aside class="sidebar" aria-label="Vídeos sugeridos">
+      <article class="suggested-video" tabindex="0" aria-label="Vídeo sugerido 1 - 22 minutos de Matue">
+        <div class="suggested-thumb">
+          
+          
+          
+            <img src="img/videoframe_6137matue.png" alt="Thumbnail do vídeo '22 minutos de Matue'" />
+          
+          
+          
+            <div class="duration-label" aria-hidden="true">21:49</div>
+        </div>
+        <div class="suggested-video-info">
+          <div class="suggested-video-title" title="22 MINUTOS DE MATUÊ / ÀS MELHORES 2025 [ATUALIZADO]">
+            22 MINUTOS DE MATUÊ / ÀS MELHORES 2025
+          </div>
+          <div class="suggested-video-channel">MundoDoTrap</div>
+          <div class="suggested-video-stats">48 mil visualizações • há 9 dias</div>
+        </div>
+      </article>
+      <article class="suggested-video" tabindex="0" aria-label="Vídeo sugerido 2 - AS MELHORES MUSICAS DO MATUÊ 2025">
+        <div class="suggested-thumb">
+          
+          
+          
+            <img src="img/matue2.avif" alt="Thumbnail do vídeo com as melhores musicas do Matue 2025" />
+          
+          
+          
+            <div class="duration-label" aria-hidden="true">28:57</div>
+        </div>
+        <div class="suggested-video-info">
+          <div class="suggested-video-title">
+            AS MELHORES MUSICAS DO MATUÊ 2025 🎧
+          </div>
+          <div class="suggested-video-channel">Dark Beats Phonk</div>
+          <div class="suggested-video-stats">2 M de visualizações • há 6 meses</div>
+        </div>
+      </article>
+      <article class="suggested-video" tabindex="0" aria-label="Vídeo sugerido 3 - Mix É Sal">
+        <div class="suggested-thumb">
+          
+          
+          
+            <img src="img/videoframe_4366sal.png" alt="Thumbnail do vídeo Mix É Sal" />
+          
+          
+          
+          
+            <div class="duration-label" aria-hidden="true">Atualizada hoje</div>
+        </div>
+        <div class="suggested-video-info">
+          <div class="suggested-video-title">
+            Mix – É Sal
+          </div>
+          <div class="suggested-video-channel">Matuê, Rich the Kid e outros</div>
+          <div class="suggested-video-stats">Atualizada hoje</div>
+        </div>
+      </article>
+      <article class="suggested-video" tabindex="0" aria-label="Vídeo sugerido 4 - MATUÊ - MÁQUINA DO TEMPO ( ÁLBUM COMPLETO )">
+        <div class="suggested-thumb">
+          
+          
+          
+            <img src="img/hq720mqndotempo.jpg" alt="Thumbnail do álbum completo Máquina do Tempo de Matue" />
+          
+          
+          
+            <div class="duration-label" aria-hidden="true">16:06</div>
+        </div>
+        <div class="suggested-video-info">
+          <div class="suggested-video-title">MATUÊ - MÁQUINA DO TEMPO ( ÁLBUM COMPLETO )</div>
+          <div class="suggested-video-channel">malvadão do ytb</div>
+          <div class="suggested-video-stats">21 M de visualizações • há 4 anos</div>
+        </div>
+      </article>
+      <article class="suggested-video" tabindex="0" aria-label="Vídeo sugerido 5 - Morte do Autotune (Acústico)">
+        <div class="suggested-thumb">
+          
+          
+          
+            <img src="img/hq720auto2.avif" alt="Thumbnail do vídeo Morte do Autotune Acústico" />
+          
+          
+          
+            <div class="duration-label" aria-hidden="true">3:39</div>
+        </div>
+        <div class="suggested-video-info">
+          <div class="suggested-video-title">Morte do Autotune (Acústico)</div>
+          <div class="suggested-video-channel">LeoZin Dos Edit</div>
+          <div class="suggested-video-stats">13 mil visualizações • há 3 semanas</div>
+        </div>
+      </article>
+      <article class="suggested-video" tabindex="0" aria-label="Vídeo sugerido 6 - Matuê - A Morte do Autotune">
+        <div class="suggested-thumb">
+          
+          
+          
+            <img src="img/hqdefault111.avif" alt="Thumbnail do vídeo Matuê - A Morte do Autotune" />
+          
+          
+          
+            <div class="duration-label" aria-hidden="true">4:14</div>
+        </div>
+        <div class="suggested-video-info">
+          <div class="suggested-video-title">Matuê - A Morte do Autotune</div>
+          <div class="suggested-video-channel">30PRAUM</div>
+          <div class="suggested-video-stats">206 M visualizações • há 6 anos</div>
+        </div>
+      </article>
+    </aside>
+  </main>
+
+  <footer role="contentinfo" aria-label="Rodapé do site">
+    <p style="max-width: 1440px; margin: 0 auto; color: #606060; font-size: 14px; padding: 16px;">
+      Youtube de Gabriel Luz, Aula frontend.
+    </p>
+  </footer>
+</div>
+</body>
+</html>
